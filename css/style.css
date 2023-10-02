@@ -18,19 +18,68 @@
   background-color: #00008b;
 }
 
+.bottom-container.debug {
+  background-color: #ee82ee;
+  height: 420px;
+}
+
+section .container.debug {
+  height: 520px;
+}
+
 /* debug */
 
 /* Header */
 
-.top {
+.container {
   display: flex;
-  justify-content: center;
-  padding: 0 500px;
+  width: 1250px;
+  margin: 0px auto;
+  padding: 20px 0;
 }
 
-.hbox {
-  margin: 10px 0;
+.header-box {
   padding: 10px;
-  min-width: 500px;
   border: 2px dashed black;
+  background-color: #daa520;
+}
+.header-box.three,
+.header-box.one {
+  width: 200px;
+}
+
+.header-box.two {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-box.three {
+  text-align: right;
+}
+
+.bottom {
+  display: flex;
+  border-bottom: 5px solid#add8e6;
+}
+
+.bottom-container {
+  width: 950px;
+  margin: 40px auto;
+  border: 2px dashed black;
+}
+
+/* /Header */
+
+/* Body */
+
+section .left-box {
+  background-color: #1e90ff;
+}
+
+.right-box {
+  background-color: #ffc0cb;
+}
+
+.inverted {
+  background-color: #d3d3d3;
 }
